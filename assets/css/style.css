@@ -20,6 +20,16 @@ body {
     line-height: 1.7;
 }
 
+
+.mt-4{
+    color: var(--c-dark);
+}
+
+
+.titulos_principais, .titulos_secundarios{
+    color: var(--c-dark);
+}
+
 h1,
 .h1,
 h2,

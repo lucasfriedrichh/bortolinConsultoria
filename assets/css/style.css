@@ -134,8 +134,14 @@ img {
     color: var(--c-brand);
 }
 
+
+.navbar-brand img {
+  max-height: 150px; /* Define a altura máxima da imagem */
+  margin-top: -10px; /* Ajusta o posicionamento vertical da imagem */
+}
 .navbar-brand {
-    font-size: 24px;
+    
+    font-size: 10px;
     font-weight: 700;
     color: var(--c-dark);
 }
@@ -180,9 +186,9 @@ img {
 
 /* Home */
 #home {
-    background-image: url(../img/logoBortolin2.png);
+    background-image: url(../img/logoBortolin-semfundo.png);
     background-position: right;
-    background-size: contain;
+    background-size: 45%;
     background-repeat: no-repeat;
     background-color: #000000;
 }
